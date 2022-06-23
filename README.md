@@ -14,6 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### Do this in your application
+
+ Navigate to https://developer.paypal.com/developer/ 
+ if you don't have account with paypal, create one and get started with paypal developer website.
+
+ navigate to Accounts on the left hand side dashboard panel. Then on the right hand side you will see create account >> click on it >> choose account type option >> Business (Merchant account) and then your country location. 
+
+ You will be able to sell your products if you have an business account with Paypal and you can buy products if you create a personal account on Paypal
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
