@@ -21,7 +21,25 @@ You may also see any lint errors in the console.
 
  navigate to Accounts on the left hand side dashboard panel. Then on the right hand side you will see create account >> click on it >> choose account type option >> Business (Merchant account) and then your country location. 
 
- You will be able to sell your products if you have an business account with Paypal and you can buy products if you create a personal account on Paypal
+// ------------------------------- NOTE -----------------------------------------------
+
+ You'll be able to sell your products if you have an business account with Paypal and you can buy products if you create a personal account on Paypal.
+
+// ----------------------------- End of NOTE ------------------------------------------
+
+Navigate back to >> My Apps & Credentials > On the Rest API option >> click create app > input your app name and click the neccessary sandbox account >> Create App >>
+
+You're only working with the Client ID. So, copy the client ID and then start working in your React application. check the implementation on the code in this repository.
+
+The client ID that you copy >> paste it inside index.html inside public folder.
+(<script src="https://www.paypal.com/sdk/js?client-id=PASTE_YOUR_CLIENT_ID_HERE&currency=CAD"></script>)
+
+Take note --- currency can be any region where Paypal is used
+
+Thank you!
+
+you can contact me to explain how the repository works @(dicethedev@gmail.com)
+
 
 
 ### `npm test`
